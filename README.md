@@ -36,9 +36,9 @@ https://webtask.it.auth0.com/api/run/wt-vikas_ramasethu-gmail_com-0/userinfo
   const options = {
     url: 'URL_WHEN_YOU_CREATE_WEBTASK',
     headers: {Authorization: 'Bearer USER_ID_TOKEN'},
-    json: {api_url: 'IDP_API'}
+    json: true
   };
-  request.post(options, function (e, r, b){});
+  request.get(options, function (e, r, b){});
 ```
 # Example Usage
 
