@@ -1,4 +1,4 @@
-# Calling A External IDP API Eg. Google using webtask
+# Calling a API to get user object using webtask based on id_token.
 
 Sample project for creating an Express-based server that runs on webtask.io for accessing external IDP api with the user's idp access token.
 ### Version
